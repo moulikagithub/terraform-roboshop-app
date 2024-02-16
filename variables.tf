@@ -7,20 +7,20 @@ variable "common_tags" {
 }
 
 variable "tags" {
-#   default = {
-#     Component = "catalogue"
-#   }
+  default = {
+    Component = "catalogue"
+  }
 }
 
 variable "projectname" {
-  #default = "roboshop"
+  default = "roboshop"
 }
 variable "environment" {
-  #default = "dev"
+  default = "dev"
 }
 
 variable "zone_name" {
-  #default = "kalidindi.cloud"
+  default = "kalidindi.cloud"
 }
 variable "vpc_id" {
   
